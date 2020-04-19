@@ -1,5 +1,5 @@
 import { CONSTANTS } from "../actions";
-import uuid from "uuidv4";
+import uuid from "uuid/v4";
 
 export const addList = title => {
   return (dispatch, getState) => {
